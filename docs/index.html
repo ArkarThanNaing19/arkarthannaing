@@ -15,7 +15,13 @@
 </head>
 
 <body id="home">
-    <div class="wrapper">
+
+    <span id="loader">
+        <img src="./images/loader.gif" alt="loader">
+    </span>
+
+    <div class="wrapper" id="myDiv">
+
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header d-flex justify-content-between">
@@ -95,16 +101,6 @@
                                         <span class="wrap"></span>
                                         </span>
                                     </h1>
-                                    <!-- <p class="intro-position"> I'm  
-                                        <span class="typewrite" data-period="2000" data-type='[
-                                            "Web Designer.",
-                                            "Web Developer.",
-                                            "PHP Developer",
-                                            "Good At Coding"
-                                        ]'>
-                                        <span class="wrap"></span>
-                                        </span>
-                                    </p> -->
                                 </div>
                             </div>
 
@@ -329,19 +325,19 @@
 
                         <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-6 filter chatbot">
                             <a href="https://www.facebook.com/satekhunarr.ska" target="_blank">
-                                <img src="./images/ska_chatbot.jpg" class="img-fluid" alt="Project Image">
+                                <img src="./images/portfolio/ska_chatbot.jpg" class="img-fluid" alt="Project Image">
                             </a>
                         </div>
 
                         <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-6 filter chatbot">
                             <a href="https://www.facebook.com/tajimamm" target="_blank">
-                                <img src="./images/tajima.JPG" class="img-fluid" alt="Project Image">
+                                <img src="./images/portfolio/tajima.jpg" class="img-fluid" alt="Project Image">
                             </a>
                         </div>
 
                         <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-6 filter chatbot">
                             <a href="https://www.facebook.com/TWburmesetraditionaldessert" target="_blank">
-                                <img src="./images/tw.jpg" class="img-fluid" alt="Project Image">
+                                <img src="./images/portfolio/tw.jpg" class="img-fluid" alt="Project Image">
                             </a>
                         </div>
 
@@ -405,6 +401,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <script src="./js/index.js"></script>
     <script src="./js/typing.js"></script>
+
+    <script>
+
+        setTimeout(function () {
+          $("#loader").fadeOut(1000);
+          $("#myDiv").fadeIn(1000);
+        }, 4000);
+    
+        
+    </script>
 
 </body>
 
