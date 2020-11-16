@@ -190,7 +190,7 @@ html, body {
 
 .filter-button:hover{
 	font-size: 18px;
-	border: 1px solid #222629;
+	border: 1px solid #4b4d4e;
 	border-radius: 5px;
 	text-align: center;
 	color: #ffffff;
@@ -198,9 +198,14 @@ html, body {
 
 }
 
+#portfolio .choose{
+	background-color : #6c757d;
+	color : #fff;
+}
+
 .btn-default:active .filter-button:active{
 	background-color: #42B32F;
-	color: white;
+	color: #fff;
 }
 
 #portfolio img{

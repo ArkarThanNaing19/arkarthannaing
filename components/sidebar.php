@@ -1,7 +1,7 @@
 <nav id="sidebar">
     <div class="sidebar-header d-flex justify-content-between">
         <h3 id="title">AKTN</h3>
-        <img src="./images/profile.jpg" alt="Profile Image" id="profile-image">
+        <img src="./docs/images/profile.jpg" alt="Profile Image" id="profile-image">
     </div>
 
     <div id="top">
